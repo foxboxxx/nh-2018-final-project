@@ -1,0 +1,15 @@
+@font-face {
+font-family: "Billionare";
+src: url("css/fonts/Billionare.ttf");
+src: 
+url("css/fonts/Billionare.woff") format("woff"),
+url("css/fonts/Billionare.otf") format("opentype"),
+url("css/fonts/Billionare.svg#filename") format("svg");
+}
+h1 {
+	font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+}
+	
+	
