@@ -1,15 +1,103 @@
 @font-face {
-font-family: "Billionare";
-src: url("css/fonts/Billionare.ttf");
-src: 
-url("css/fonts/Billionare.woff") format("woff"),
-url("css/fonts/Billionare.otf") format("opentype"),
-url("css/fonts/Billionare.svg#filename") format("svg");
+font-family: Billionare;
+src: url("fonts/Billionare.ttf");
+
 }
 h1 {
 	font-family: 'Billionare';
 	font-weight:normal;
 	font-style:normal;
+	font-size:100px;
+	position:relative;
+	text-align:center;
+	margin-top:100px;
+	
+}
+h2 {
+	font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+	font-size:60px;
+	position:relative;
+	text-align:center;
+	margin-top:-60px;
+}
+body {
+	background-image:url("https://thumbs.gfycat.com/ArcticEasyChipmunk-size_restricted.gif");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#diceman {
+	margin-left:800px;
+	margin-right:auto;
+	width:250px;
+	height:400px;
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	position:absolute;
+}
+#container {
+	position:relative;
+	width:100%;
+}
+#wow {
+	font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+	font-size:35px;
+	color:white;
+	position:absolute;
+	margin-left:745px;
+	margin-top:10px;
+}
+#text {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+	width:175px;
+	height:125px;
+	margin-top:-25px;
+	margin-left:715px;
+	position:absolute;
+	z-index:-1;
+}
+
+.magic {
+	margin-left:850px;
+	margin-top:450px;
+	height:70px;
+	display: inline-block;
+  padding: 15px 25px;
+  font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+	font-size:35px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #242424;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.magic:hover {background-color: #000000}
+
+.magic:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 	
+}
+.font {
+	font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+	font-size:35px;
+	margin-bottom:300px;
+}
+.rollingdice {
+	display: none;
+}
 	
