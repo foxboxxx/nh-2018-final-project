@@ -3,6 +3,11 @@ font-family: Billionare;
 src: url("fonts/Billionare.ttf");
 
 }
+@font-face {
+font-family: HACKED;
+src: url("fonts/HACKED.ttf");
+
+}
 h1 {
 	font-family: 'Billionare';
 	font-weight:normal;
@@ -97,7 +102,56 @@ body {
 	font-size:35px;
 	margin-bottom:300px;
 }
-.rollingdice {
+#rollingdice {
 	display: none;
+	margin-left:600px;
+	margin-top:-600px;
+	position:absolute;
 }
-	
+input {
+	margin-left:1700px;
+	margin-top:-20px;
+	height:70px;
+	display: inline-block;
+  padding: 15px 25px;
+  font-family: 'Billionare';
+	font-weight:normal;
+	font-style:normal;
+	font-size:35px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #242424;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  position:relative;
+}
+input:hover {background-color: #000000}
+
+input:active {
+  background-color: #000000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#demo {
+	margin-left:600px;
+	margin-top:-500px;
+	position:absolute;
+}
+#demo2 {
+	margin-left:1000px;
+	margin-top:-500px;
+	position:absolute;
+}
+
+h4 {
+	color:red;
+	font-family: 'HACKED';
+	font-weight:normal;
+	font-style:normal;
+	font-size:20px;
+	margin-top:-875px;
+}

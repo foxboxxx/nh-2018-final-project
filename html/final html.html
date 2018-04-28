@@ -6,16 +6,30 @@
 <body>
 	
 	<h1 align=center>Welcome To Joe's Dice Roller,</h1>
+	
 	<h2>The Number ONE Dice Roller In The World!</h2>
 	
 	<p class="gone" id="wow" >Take a roll!</p>
+	
 	<img class="gone" id="text" src="https://media.giphy.com/media/3o7aCV5CxaciHjJHXy/giphy.gif">
+	
 	<img class="gone" id="diceman"  src="https://vignette.wikia.nocookie.net/villains/images/1/15/Dicer.gif/revision/latest?cb=20171205222042">
-	<button onclick="reApear()"id="hide"  class="magic" class="show" ><span class="font">Test Your Luck!</span></button>
-
-	<img class="rollingdice" src="http://images.rapgenius.com/8fpfkmaom3siogc9pnaagcnmx.715x500x6.gif">
-
+	
+	<button  id="hide" id="button" onclick="doShow(); doTheHide(); resetDice(); timedImage(); timedImage2()" class="magic" class="show" ><span class="font">Test Your Luck!</span></button>
+	
+	<div id="demo"></div><div id="demo2"></div>
+	
+	<div id="rollingdice"><img src="http://images.rapgenius.com/8fpfkmaom3siogc9pnaagcnmx.715x500x6.gif"></div>
+	
 	<script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 	<script type="text/javascript" src="..\js\final js.js"></script>
+	
+	<input type="button" value="Restart Roller" onClick="window.location.reload()">
+	
+	<h4> WARNING : THIS WEBPAGE IS CURRENTLY IN BETA AND MAY NOT FUNCTION CORRECTLY</h4>
 	</body>
+
+
+
 	
