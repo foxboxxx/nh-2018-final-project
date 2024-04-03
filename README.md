@@ -1,1 +1,1 @@
-# final project
+# dice roller for nanohackers 2018
